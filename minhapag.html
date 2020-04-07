@@ -1,0 +1,57 @@
+<!--Declaração da versão do html-->
+<!DOCTYPE html>
+<!--Inicio do código e a linguagem a ser trabalhada no navegador-->
+<html lang="pt-br">
+	<head>
+		<!--Tipo de caracter trabalhado na página -->
+		<meta charset="utf-8">
+		<title>Companhia elétrica GPT</title>
+		<!--tag que importa o arquivo css externo -->
+		<link rel="stylesheet" type="text/css" href="stylepag.css">
+		<script type="text/javascript" src="scriptdapag.js">
+			
+		</script>
+	</head>
+	<body>
+		<!--Cabeçalho-->
+		<header>
+			<div class="container">
+				<img src="logo.png" id="logo" >
+			</div>
+		</header>
+		<!--Codigo com os dois conteúdos do meio dividos-->
+		<div>
+			<div id="div_esquerda">
+				<div class="container">
+					<h1>CÁLCULO DO GASTO DO CHUVEIRO</h1>
+					<div class="efeito">
+						<label>Insira a potência do chuveiro:</label>
+						<input type="text" name="txtpot" class="textperso" id="txtpotc" value="5500">
+						<br><br>
+						<label>Insira a quantidade total de banhos por dia na sua casa: </label>
+						<input type="text" name="txtqtdb" class="textperso" id="txtqtd" value="6">
+						<br><br>
+						<label>Insira o tempo de cada banho (Em minutos): </label>
+						<input type="text" name="txttemp" class="textperso" id="txttempb" value="15">
+						<br><br>
+						
+						<input type="button" value="Calcular gasto" class="buttonperso" onclick="dea()">
+					</div>
+				</div>
+				
+			</div>
+
+			<div id="div_direita">
+				<div class="container">
+					<img src="lampadaapagada.png" class="imgd" onclick="quebralampada()" id="lam" onmouseover="acenderlampada()" onmouseout="apagarlampada()">
+					<input type="button" value="Restaurar lâmpada" class="buttonperso" onclick="voltarlampada()">
+				</div>
+			</div>
+		</div>
+		<!--Rodapé-->
+		<footer>
+			<div class="container">Developed by Pedro Gonçalves, Thiago Moura and Gabriel Nascimento
+			</div>
+		</footer>
+	</body>
+</html>

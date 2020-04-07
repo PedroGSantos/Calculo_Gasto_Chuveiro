@@ -1,0 +1,78 @@
+/*Nas linhas abaixo estão as tags que terão suas propriedades modificadas*/
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-image: -webkit-linear-gradient(black,#363636);
+	background-image: -moz-linear-gradient(black,#363636);
+}
+header{
+	height:200px;	
+}
+footer{
+	clear: both;
+	height:100px;
+	background-image: -webkit-linear-gradient(#00BFFF,#00CED1);
+	background-image: -moz-linear-gradient(#00FFFF,#00CED1);
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+	font-size: 25px;
+	font-family: arial;
+	
+}
+h1{
+	font-family: Helvetica, Arial;
+	text-shadow: 2px 3px 0px #111111;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	margin: 30px;
+}
+label{
+	font-family: arial;
+	color: #DAA520;
+	font-size: 20px;
+}
+
+/*Nas linhas abaixo estão os IDs que terão um único correspondente no código html*/
+#logo{
+	padding: 15px;
+}
+#div_esquerda{
+	float: left;
+	width: 60%;
+	min-height: 500px;
+	background-image: url('chuveiro.jpg');
+	background-size: 100%;
+}
+
+
+#div_direita{
+	float: right;
+	width: 40%;
+	min-height: 500px;
+
+}
+/*Nas linhas abaixo estão as classe que terão mais de um correspondente no código html*/
+.buttonperso{
+	height:50px;
+	margin-left: 345px;
+
+}
+.textperso{
+	height: 30px;
+}
+.imgd{
+	width: 250px;
+	padding: 100px 100px 70px 280px;
+}
+
+.container{
+	margin: auto;
+	width: 700px;
+}
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
